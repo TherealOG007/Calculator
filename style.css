@@ -1,0 +1,30 @@
+.calculator {
+	margin: auto;
+	padding: 20px;
+	width: 250px;
+	border: 1px solid #151414;
+	background-color: hsl(210, 82%, 46%);
+}
+
+.display {
+	margin-bottom: 10px;
+}
+
+.keys {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-gap: 10px;
+}
+
+.number, .operator, .equal, .clear {
+	padding: 10px;
+	border: none;
+	border-radius: 5px;
+	font-size: 16px;
+	background-color: #ccc;
+	cursor: pointer;
+}
+
+.number:hover, .operator:hover, .equal:hover, .clear:hover {
+	background-color: #bbb;
+}
